@@ -1,0 +1,190 @@
+@import "main.css";
+body {
+  font-size: .5rem;
+}
+.width100 {
+  width: 16rem;
+}
+.noBorder {
+  border: 0 none;
+}
+.gary-bg {
+  background-color: #F7F8FA;
+}
+.nav {
+  text-align: center;
+  padding: .5rem 0 0 0;
+  border-bottom: .05rem solid #EEEEEF;
+}
+.nav li {
+  border-bottom: .1rem solid #F7F8FA;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 4.5rem;
+  text-align: center;
+  font-size: .7rem;
+  color: #BBBCBE;
+}
+.nav li.on {
+  border-color: #D6232A;
+  color: #D6232A;
+}
+.red-box ul li {
+  background-color: #fff;
+  font-size: .7rem;
+  border-bottom: .05rem solid #F0F0F0;
+  padding: .5rem;  font-size:.5rem;
+}
+.red-box ul li label {
+  display: inline-block;
+  width: 3rem;
+  text-align: right;
+  margin-right: .5rem;
+}
+.red-box ul li input {
+  width: 9.5rem;
+  padding: .2rem;
+  margin-right: .5rem;
+  border: 0 none;
+  background-color: #fff;
+  text-align: right;
+}
+.tips {
+  color: #B9B9BB;
+  padding: .5rem;
+}
+.msg{width:16rem; overflow:hidden}
+.msg input {
+  width: 15rem;
+  padding: .5rem;
+  margin-right: .5rem;
+  border: 0 none;
+  background-color: #fff;
+}
+.red-btn {
+  display:block;
+  width: 15rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background-color: #D13D4B;
+  border-radius: 0.3rem;
+  color: #fff;
+  border: 0 none;
+  margin:1rem auto;
+  text-align:center;
+}
+.gray-btn{
+  display:block;
+  width: 8rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background-color: #ddd;
+  border-radius: 0.3rem;
+  color: #A0A0A0;
+  border: 0 none;
+  margin:1rem auto;
+}
+.pop{
+  position:fixed; width:100%; height:100%;
+  top:0; left:0; background-color:rgba(0,0,0,0);
+  display:none;
+}
+.hide{display:none !important;}
+.pop .pop-tips{
+  width:14rem; height:1.5rem;
+  line-height:1.5rem; background-color:rgba(0,0,0,.5);
+  color:#fff; text-align:center; position:fixed;
+  top:27%; left:50%; margin:-.75rem 0 0 -7rem;
+  border-radius:.4rem;
+}
+.black-bg{background-color:#000}
+.send-msg{text-align:center; color:#fff;}
+.open-banner{
+  width:16rem; height:14rem;
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+#getRed,#register{width:8rem; margin:.5rem auto}
+.red-info h3{
+  width:10rem; height:2rem; line-height:2rem;
+  background-color:#fff; color:#efcc51; text-align:center;
+  margin:0 auto; font-size:1.2rem;
+}
+.red-info p{
+  text-align:center; color:#fff; font-size:.5rem;
+  padding: .5rem 0;
+}
+.list{
+  width:15rem; margin:2rem auto;
+}
+.list h3{border-bottom:.05rem solid #fff; position:relative}
+.list h3 span{
+  display:inline-block; background-color:#000; position:absolute;
+  top:-.7rem; width:6rem; height:1.5rem; line-height:1.5rem; text-align:center;
+  left:50%; margin-left:-3rem; font-size:.5rem; color:#fff;
+}
+.user-list{
+  margin-top:1.2rem;
+}
+.user-list dl{
+  overflow:hidden; position:relative;
+  padding-left:2.5rem; margin-bottom:.5rem;
+}
+.user-list dl dt{
+  width:2rem; height:2rem;
+  float:left; margin-right:.5rem;
+  margin-left:-2.5rem;
+}
+.user-list dl dt img{
+  width:100%; height:100%;
+}
+.user-list dl dd{color:#fff}
+.user-list dl dd.name,.user-list dl dd.text{
+  width:9rem; line-height:1rem;
+}
+.user-list dl dd.name{
+  color:#efcc51;
+}
+.user-list dl dd.name em{color:#fff; font-style:normal; padding-left:.5rem}
+.user-list dl dd.text{color:#fff}
+.user-list dl dd.price{color:#efcc51; font-size:.8rem;
+  position:absolute; top:.3rem; right:0;
+}
+.get-red-tips{
+  position:absolute; width:14rem; height:2rem; line-height:2rem;
+  text-align:center; color:#fff; font-size:.6rem; top:11rem; left:50%;
+  margin-left:-7rem; background-color:rgba(255,255,255,.4);
+  border-radius:.5rem;
+}
+.yellow-bg{background-color:#fbf7f2}
+.user-img{
+  margin:2rem auto .6rem auto;
+}
+.user-img img{
+  width:4rem; height:4rem; border-radius:.3rem;
+  display:block; margin:0 auto;
+}
+.user-img p{text-align:center; line-height:1.5rem}
+.red-num{width:16rem; text-align:center; margin-bottom:1.5rem}
+.red-num span{display:inline-block; width:7.5rem; font-size:1.5rem; color:#929292; text-align:center}
+.red-num span em{display:block; text-align:center; padding-top:.5rem; font-size:.7rem; color:red; font-style:normal}
+.records-list{
+  width:15rem; margin:.5rem auto;
+  border-top:.05rem solid #f5f2ed;
+}
+.records-list dl{
+  position:relative; border-bottom:.05rem solid #f5f2ed;
+  padding:.2rem .5rem;
+}
+.records-list dl dt{
+  color:#171813;
+}
+.records-list  dl dd.time{color:#d3d0cb}
+.records-list  dl dd.price{
+  color:#403d37; font-size:.8rem;
+  position:absolute; top:.55rem; right:0;
+}
+.user-list p{
+  text-align:center; line-height:2rem; color:#ccc;
+}
